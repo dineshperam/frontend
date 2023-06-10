@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-export default class registration extends Component {
+export default class Registration extends Component {
   state={
     users:[]
   }

@@ -12,7 +12,7 @@ export default class LoginPage extends Component {
     })
   }
   click=()=>{
-    axios.post("http://localhost:4000/store",{
+    axios.post("https://backendapi-5ano.onrender.com/store",{
       username:this.state.username,
       password:this.state.password
     })
